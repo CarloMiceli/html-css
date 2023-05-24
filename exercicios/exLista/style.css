@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+body {
+
+    background-image: linear-gradient(to top , #a8a8a8, #eaeaea);
+    padding-left: 10px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+
+.textobasico {
+
+    font-family: 'Rajdhani', sans-serif;
+    text-align: left;
+    font-weight:500;
+    font-size: 20px;
+    padding-left: 20px;
+
+
+}
+
+.titulonivel3{
+
+    background-image: linear-gradient(to top #a8a8a8, #eaeaea);
+    font-family: 'Rajdhani', sans-serif;
+    text-align: left;
+    font-weight:500;
+    font-size: 30px;
+    padding-left: 20px;
+
+}
+
+.titulonivel2 {
+
+    background-image: linear-gradient(to top #a8a8a8, #eaeaea);
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: left;
+    font-weight:500;
+    font-size: 30px;
+    padding-left: 20px;
+
+
+}
+.titulonivel1 {
+
+    background-image: linear-gradient(to top #a8a8a8, #eaeaea);
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 60px;
+    padding-left: 20px;
+
+
+}

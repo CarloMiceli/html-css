@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Orpheus";
+    src: url("../fontes/Orpheus\ Pro\ Font.otf") format('opentype');
+    font-weight: normal;
+    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-weight: lighter;
+
+}
+
+:root {
+    --cor0:#080808;
+    --cor1:#38383B;
+    --cor2:#A8A6A1;
+
+    --fonte-padrao: "Orpheus";
+    --fonte-texto: "serif";
+
+}
+
+
+body {
+    color: white;
+    background-color: var(--cor1);
+    font-family: var(--fonte-padrao);
+
+}
+
+
+
+.vale_presente > h2 {
+    margin: 30px;
+    text-align: left;
+
+}
+
+nav {
+
+    background-color: var(--cor0);
+    padding: 30px;
+    text-align: center;
+    max-width: 100%;
+
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 12px;
+    font-weight: lighter;
+    transition-duration: 1s;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+
+}
+
+
+header {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 200px;
+
+}
+
+main {
+    text-align: center;
+    max-width: 100%;
+    margin-bottom: 100px;
+    background-color: var(--cor1);
+
+}
+
+main a {
+    color: white;
+    text-decoration: none;
+    background-color: var(--cor2);
+    padding: 20px 40px;
+
+}
+
+main h1 {
+    font-size: 40px;
+    margin: 60px;
+
+}
+
+main h2 {
+    font-size: 2em;
+
+
+}
+
+
+main h3 {
+    margin: 50px;
+    font-size: 30px;
+}
+
+.produtos {
+    width: 100%;
+    margin: auto;
+    background-color: var(--cor1);
+    padding-bottom: 100px;
+}
+
+
+.produtos img {
+    max-height: 600px;
+}
+
+.produtos > article {
+    text-align: center;
+    display: block;
+    max-width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+main img {
+    margin: 0;
+    max-width: 100%;
+
+}
+
+
+aside {
+    background-color: var(--cor2);
+    padding: 20px;
+}
+aside article {
+
+        margin: 100px 0px;
+}
+
+aside a {
+    color:var(--cor2);
+    text-decoration: none;
+    background-color: white ;
+    padding: 20px 40px;
+}
+
+aside img {
+    max-width: 100%;
+
+}
+
+.diario {
+    padding: 00px 0px;
+    margin: auto;
+
+}
+
+
+.email {
+    background-color: var(--cor0);
+    padding: 100px 0px;
+}
+
+.vale_presente {
+    text-align: left;
+    margin: auto;
+    background-color: var(--cor2);
+    padding: 20px 20px 100px 20px;
+    
+
+}
+
+.vale_presente a {
+    color: var(--cor2);
+    text-decoration: none;
+    background-color: white;
+    padding: 20px 40px;
+    margin-bottom: 100px;
+
+}
+
+.vale_presente > img {
+    max-width: 100%;
+    display: block; 
+
+}
+
+.vale_presente h2 {
+    margin: 40px 0px;
+
+}
+
+p {
+    margin-bottom: 50px;
+
+}
+
+footer {
+    background-color:var(--cor1);
+    padding: 40px;
+
+}
+
+footer h3 {
+    font-size: 2em;
+    font-family: var(--fonte-padrao);
+    margin: 20px 0px;
+
+}
+
+footer a {
+    color:var(--cor2);
+    font-family: var(--fonte-padrao);
+}
+
+footer ul {
+    list-style: none;
+    columns: 2;
+}
